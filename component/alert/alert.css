@@ -1,0 +1,27 @@
+.mantra-alert {
+    padding: var(--padding-md);
+    background: var(--primary-color);
+    color: var(--txt-primary);
+    width: max-content;
+    border-radius: var(--border-radius);
+}
+
+.mantra-alert-success {
+    background: var(--success-color);
+    color: var(--txt-dark);
+}
+
+.mantra-alert-danger {
+    background: var(--danger-color);
+    color: var(--txt-primary);
+}
+
+.mantra-alert-warning {
+    background: var(--warning-color);
+    color: var(--txt-primary);
+}
+
+.mantra-alert-info {
+    background: var(--secondary-color);
+    color: var(--dark-blue);
+}
