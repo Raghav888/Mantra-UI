@@ -1,10 +1,13 @@
 @import url(../component/alert/alert.css);
 @import url(../component/avatar/avatar.css);
+@import url(../component/badge/badge.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
     --padding-md: 0.8rem;
     --padding-lg: 1rem;
+    --padding-icon: 1rem 0rem;
+    --padding-badge: 0.4rem;
     /* *************************************** */
     /* Color Primary and Secondary */
     --primary-color: #1e8dbc;
@@ -25,8 +28,30 @@
     /* *************************************** */
     /* Margin */
     --margin-left-md: 1rem;
+    --margin-right-md: 2rem;
     /* Avatar width and height */
     --avatar-lg: 8rem;
     --avatar-sm: 2rem;
     --avatar-md: 5rem;
+    /* *************************************** */
+    /* Font sizes  */
+    --txt-lg: 1.8rem;
+    --txt-md: 1.4rem;
+    --txt-sm: 0.8rem;
+    /* *************************************** */
+    /* Position badge */
+    --left-md: 0.8rem;
+    --bottom-md: 1rem;
+    --left-circle-md: 5rem;
+    --width-md: 0.5rem;
+    --height-md: 0.5rem;
+    --bottom-lg: 1.6rem;
+    --left-lg: 8rem;
+    --width-lg: 0.7rem;
+    --height-lg: 0.7rem;
+    --bottom-sm: 0.6rem;
+    --left-sm: 2.5rem;
+    --width-sm: 0.3rem;
+    --height-sm: 0.3rem;
+    /* *************************************** */
 }
