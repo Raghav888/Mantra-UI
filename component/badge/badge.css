@@ -1,0 +1,58 @@
+.mantra-badge {
+    padding: var( --padding-lg);
+}
+
+.mantra-icon {
+    position: relative;
+    font-size: var( --txt-md);
+    padding: var(--padding-icon);
+    margin-right: var(--margin-right-md);
+}
+
+.mantra-count {
+    background-color: var( --primary-color);
+    border-radius: var(--border-radius-circle);
+    position: absolute;
+    font-size: var(--txt-sm);
+    font-weight: bold;
+    padding: var(--padding-badge);
+    color: var(--txt-primary);
+    top: 1px;
+    left: var(--left-md);
+}
+
+.mantra-badge-lg,
+.mantra-badge-md,
+.mantra-badge-sm {
+    position: relative;
+}
+
+.mantra-circle {
+    border-radius: var(--border-radius-circle);
+    border: 3px solid white;
+    position: absolute;
+}
+
+.mantra-circle-lg {
+    bottom: var( --bottom-lg);
+    left: var(--left-lg);
+    width: var(--width-lg);
+    height: var(--height-lg);
+    background-color: var(--txt-dark);
+}
+
+.mantra-circle-md {
+    bottom: var(--bottom-md);
+    left: var( --left-circle-md);
+    width: var(--width-md);
+    height: var( --height-md);
+    background-color: var(--txt-dark);
+}
+
+.mantra-circle-sm {
+    bottom: var(--bottom-sm);
+    left: var(--left-sm);
+    width: var( --width-sm);
+    height: var( --height-sm);
+    background-color: var(--txt-dark);
+}
