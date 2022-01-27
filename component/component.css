@@ -1,0 +1,21 @@
+@import url(../component/alert/alert.css);
+:root {
+    /* Padding Size */
+    --padding-sm: 0.5rem;
+    --padding-md: 0.8rem;
+    --padding-lg: 1rem;
+    /* *************************************** */
+    /* Color Primary and Secondary */
+    --primary-color: #1e8dbc;
+    --secondary-color: #9ecee2;
+    /* *************************************** */
+    /*Color for alerts  */
+    --success-color: #99cc33;
+    --warning-color: #ff6347;
+    --danger-color: #ff0000;
+    /* Text color */
+    --txt-primary: white;
+    --txt-dark: #0e1970;
+    /* Border radius  */
+    --border-radius: 0.8rem;
+}
