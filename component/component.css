@@ -1,4 +1,5 @@
 @import url(../component/alert/alert.css);
+@import url(../component/avatar/avatar.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -13,9 +14,19 @@
     --success-color: #99cc33;
     --warning-color: #ff6347;
     --danger-color: #ff0000;
+    /* *************************************** */
     /* Text color */
     --txt-primary: white;
     --txt-dark: #0e1970;
+    /* *************************************** */
     /* Border radius  */
     --border-radius: 0.8rem;
+    --border-radius-circle: 50%;
+    /* *************************************** */
+    /* Margin */
+    --margin-left-md: 1rem;
+    /* Avatar width and height */
+    --avatar-lg: 8rem;
+    --avatar-sm: 2rem;
+    --avatar-md: 5rem;
 }
