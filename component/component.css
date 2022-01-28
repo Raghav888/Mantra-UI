@@ -4,6 +4,7 @@
 @import url(../component/button/button.css);
 @import url(../component/card/card.css);
 @import url(../component/image/image.css);
+@import url(../component/input/input.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
