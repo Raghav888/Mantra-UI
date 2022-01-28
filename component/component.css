@@ -3,6 +3,7 @@
 @import url(../component/badge/badge.css);
 @import url(../component/button/button.css);
 @import url(../component/card/card.css);
+@import url(../component/image/image.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -87,4 +88,8 @@
     --text-overlay-top: 50%;
     --text-overlay-left: 30%;
     --text-overlay-maxwidth: 19rem;
+    /* *************************************** */
+    /* Image responsiveness */
+    --max-inline-size-img: 100%;
+    /* *************************************** */
 }
