@@ -1,6 +1,7 @@
 @import url(../component/alert/alert.css);
 @import url(../component/avatar/avatar.css);
 @import url(../component/badge/badge.css);
+@import url(../component/button/button.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -8,10 +9,13 @@
     --padding-lg: 1rem;
     --padding-icon: 1rem 0rem;
     --padding-badge: 0.4rem;
+    --padding-btn-lg: 0.8rem;
+    --padding-btn-md: 0.5rem;
+    --padding-btn-sm: 0.2rem;
     /* *************************************** */
     /* Color Primary and Secondary */
-    --primary-color: #1e8dbc;
-    --secondary-color: #9ecee2;
+    --primary-color: #1299d3;
+    --secondary-color: #b0ccd6;
     /* *************************************** */
     /*Color for alerts  */
     --success-color: #99cc33;
@@ -25,6 +29,7 @@
     /* Border radius  */
     --border-radius: 0.8rem;
     --border-radius-circle: 50%;
+    --border-btn: 0.3rem;
     /* *************************************** */
     /* Margin */
     --margin-left-md: 1rem;
@@ -38,6 +43,7 @@
     --txt-lg: 1.8rem;
     --txt-md: 1.4rem;
     --txt-sm: 0.8rem;
+    --txt-btn-md: 1rem;
     /* *************************************** */
     /* Position badge */
     --left-md: 0.8rem;
@@ -54,4 +60,14 @@
     --width-sm: 0.3rem;
     --height-sm: 0.3rem;
     /* *************************************** */
+    /* Floating button */
+    --gap-btn: 2rem;
+    --width-float-btn: 4rem;
+    --height-float-btn: 4rem;
+    --bottom-float-btn: 3rem;
+    --right-float-btn: 3rem;
+    --height-float-icon: 100%;
+    --shadow: 10px 10px 5px hsl(0, 0%, 67%);
+    /* Link Button */
+    --margin-link-btn: 1rem;
 }
