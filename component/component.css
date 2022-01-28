@@ -2,6 +2,7 @@
 @import url(../component/avatar/avatar.css);
 @import url(../component/badge/badge.css);
 @import url(../component/button/button.css);
+@import url(../component/card/card.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -15,7 +16,7 @@
     /* *************************************** */
     /* Color Primary and Secondary */
     --primary-color: #1299d3;
-    --secondary-color: #b0ccd6;
+    --secondary-color: #cee4ec;
     /* *************************************** */
     /*Color for alerts  */
     --success-color: #99cc33;
@@ -34,6 +35,8 @@
     /* Margin */
     --margin-left-md: 1rem;
     --margin-right-md: 2rem;
+    --margin-bottom: 2rem;
+    --margin-top: 2rem;
     /* Avatar width and height */
     --avatar-lg: 8rem;
     --avatar-sm: 2rem;
@@ -68,6 +71,20 @@
     --right-float-btn: 3rem;
     --height-float-icon: 100%;
     --shadow: 10px 10px 5px hsl(0, 0%, 67%);
+    /* *************************************** */
     /* Link Button */
     --margin-link-btn: 1rem;
+    /* *************************************** */
+    /* Cards */
+    --card-width: 100%;
+    --card-width-max: 40rem;
+    --box-shadow-card: 10px 4px rgb(0 0 0 / 5%);
+    --max-width-img: 12rem;
+    --margin-top-btn: 6px;
+    --height-img: 100%;
+    --card-vert-width-max: 14rem;
+    --margin-card-badge: 2rem 0px 0px 0.7rem;
+    --text-overlay-top: 50%;
+    --text-overlay-left: 30%;
+    --text-overlay-maxwidth: 19rem;
 }

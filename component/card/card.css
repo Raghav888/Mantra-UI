@@ -1,0 +1,116 @@
+/* Horizontal Card */
+
+.mantra-card-holder {
+    display: flex;
+    width: var(--card-width);
+    max-width: var( --card-width-max);
+    border-radius: var(--border-radius);
+    margin-bottom: var( --margin-bottom);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow-card);
+}
+
+.mantra-card-holder-image {
+    padding: var(--padding-lg);
+    max-width: var(--max-width-img);
+    height: auto;
+}
+
+.mantra-card-holder-image img {
+    border-radius: var(--border-radius);
+}
+
+.mantra-card-holder-text {
+    flex: 1;
+    padding: var(--padding-lg);
+    box-sizing: border-box;
+}
+
+.mantra-card-image {
+    max-inline-size: 100%;
+    block-size: auto;
+    aspect-ratio: 2/1;
+    height: var(--height-img);
+    object-fit: cover;
+}
+
+.mantra-discount {
+    font-size: var(--txt-md);
+    font-weight: bold;
+}
+
+.mantra-card-btn {
+    margin-top: var( --margin-top-btn);
+}
+
+.mantra-original {
+    text-decoration: line-through;
+    font-size: var(--txt-md);
+    color: var(--light-grey);
+    margin-left: var( --margin-left-md);
+}
+
+
+/* Vertical Card */
+
+.mantra-vertical-card {
+    position: relative;
+    max-width: var( --card-vert-width-max);
+    height: auto;
+    padding: var(--padding-lg);
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-card);
+    margin-top: var(--margin-top);
+}
+
+.mantra-close-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    font-size: var( --txt-lg);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.mantra-card-holder-image-v {
+    flex: 1;
+}
+
+.mantra-vert-image {
+    border-radius: var(--border-radius);
+    max-inline-size: 100%;
+    block-size: auto;
+    height: var(--height-img);
+    object-fit: cover;
+}
+
+.mantra-badge-card {
+    margin: var( --margin-card-badge);
+    border-radius: 1px;
+}
+
+.mantra-text-overlay-card {
+    position: relative;
+}
+
+.mantra-text-overlay {
+    position: absolute;
+    top: var(--text-overlay-top);
+    left: var(--text-overlay-left);
+    font-weight: bold;
+    color: white;
+}
+
+.mantra-text-card {
+    box-sizing: border-box;
+    max-width: var( --text-overlay-maxwidth);
+    padding: var(--padding-lg);
+    margin-top: var(--margin-top);
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow-card);
+}
