@@ -40,28 +40,28 @@
     --margin-bottom: 2rem;
     --margin-top: 2rem;
     /* Avatar width and height */
-    --avatar-lg: 8rem;
-    --avatar-sm: 2rem;
-    --avatar-md: 5rem;
+    --avatar-lg: 10rem;
+    --avatar-sm: 3rem;
+    --avatar-md: 7rem;
     /* *************************************** */
     /* Font sizes  */
-    --txt-lg: 1.8rem;
-    --txt-md: 1.4rem;
+    --txt-lg: 2.8rem;
+    --txt-md: 1.8rem;
     --txt-sm: 0.8rem;
     --txt-btn-md: 1rem;
     /* *************************************** */
     /* Position badge */
-    --left-md: 0.8rem;
-    --bottom-md: 1rem;
-    --left-circle-md: 5rem;
+    --left-md: 2rem;
+    --bottom-md: 4rem;
+    --left-circle-md: 7rem;
     --width-md: 0.5rem;
     --height-md: 0.5rem;
     --bottom-lg: 1.6rem;
-    --left-lg: 8rem;
+    --left-lg: 9rem;
     --width-lg: 0.7rem;
     --height-lg: 0.7rem;
-    --bottom-sm: 0.6rem;
-    --left-sm: 2.5rem;
+    --bottom-sm: 7rem;
+    --left-sm: 3rem;
     --width-sm: 0.3rem;
     --height-sm: 0.3rem;
     /* *************************************** */
@@ -80,7 +80,7 @@
     /* Cards */
     --card-width: 100%;
     --card-width-max: 40rem;
-    --box-shadow-card: 10px 4px rgb(0 0 0 / 5%);
+    --box-shadow-card: 10px 4px rgb(0 0 0 / 10%);
     --max-width-img: 12rem;
     --margin-top-btn: 6px;
     --height-img: 100%;

@@ -4,7 +4,7 @@
 
 .mantra-icon {
     position: relative;
-    font-size: var( --txt-md);
+    font-size: var( --txt-lg);
     padding: var(--padding-icon);
     margin-right: var(--margin-right-md);
 }
@@ -13,7 +13,7 @@
     background-color: var( --primary-color);
     border-radius: var(--border-radius-circle);
     position: absolute;
-    font-size: var(--txt-sm);
+    font-size: var(--txt-md);
     font-weight: bold;
     padding: var(--padding-badge);
     color: var(--txt-primary);
