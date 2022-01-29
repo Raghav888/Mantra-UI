@@ -1,4 +1,5 @@
-.mantra-responsive-image img {
+.mantra-responsive-image img,
+.mantra-responsive-image iframe {
     max-inline-size: var( --max-inline-size-img);
     block-size: auto;
     aspect-ratio: 2/1;

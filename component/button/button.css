@@ -9,12 +9,17 @@
 
 .mantra-primary-btn {
     background-color: var( --primary-color);
+    font-size: var(--txt-md);
 }
 
 .mantra-outline-btn {
     background-color: var(--txt-primary);
     border: 1px solid var( --primary-color);
     color: var( --primary-color);
+}
+
+.mantra-med-btn {
+    font-size: var(--txt-md);
 }
 
 .mantra-large-btn {
