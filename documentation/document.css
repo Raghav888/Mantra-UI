@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    margin-left: 1.6rem;
+}
+
+.brand-logo-img {
+    margin-top: 0.8rem;
+}
+
+.nav-footer {
+    margin-left: auto;
+}
+
+.nav-bar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    float: left;
+    font-size: 1.8rem;
+}
+
+.nav-list a {
+    display: block;
+    color: var(--primary-color);
+    margin-right: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.horizontal-line {
+    border-top: 2px solid white;
+    opacity: 0.5;
+}
+
+
+/* Side bar */
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    height: 100%;
+    padding: var(--padding-md);
+    padding-top: 4rem;
+    position: fixed;
+    min-width: max-content;
+    height: 100vh;
+    top: 1;
+}
+
+.component-feature {
+    color: var(--primary-color);
+    padding: var(--padding-sm);
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.getting-start a:hover,
+.component-feature:hover {
+    color: blue;
+}
+
+.component-list-container a {
+    text-decoration: none;
+}
+
+.component-title {
+    padding-left: 2rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+#load-component {
+    text-decoration: none;
+}
+
+.getting-start a {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.vertical-line {
+    border-left: 2px solid white;
+    opacity: 0.5;
+    height: 100%;
+    position: absolute;
+    margin-left: 20rem;
+    top: 10;
+}
+
+
+/* Doc */
+
+.main-container {
+    display: flex;
+    width: 100%;
+    font-size: 1.8rem;
+    padding-top: 3rem;
+}
+
+.docs-container {
+    width: 100vw;
+    padding-left: 30%;
+    min-height: 100vh;
+}
+
+.docs-data {
+    font-size: 1.6rem;
+    margin: 0.8rem 0;
+}
+
+.code {
+    color: blue;
+    padding: 0.5rem;
+}
+
+.code-snippet-container {
+    width: 100%;
+    height: max-content;
+    overflow-x: auto;
+    margin: 0.5rem 0;
+}
+
+.code-snippet {
+    width: 80%;
+    padding: 0;
+    border: 0;
+    display: block;
+}

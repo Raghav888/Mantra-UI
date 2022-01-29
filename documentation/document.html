@@ -5,13 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="component.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mantra UI Document</title>
+    <link rel="stylesheet" href="document.css">
+    <link rel="stylesheet" href="../component/component.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <!-- nav bar -->
+    <nav class="main">
+        <div class="header">
+            <a href="../index.html">
+                <div class="brand-logo mantra-responsive-image">
+                    <img src="../assets/logo.png" alt="Mantra-logo" class="brand-logo-img">
+                </div>
+            </a>
+        </div>
+        <div class="nav-footer">
+            <ul class="nav-bar-menu">
+                <li class="nav-list"><a href="https://raghavbang.netlify.app/">
+                        Home
+                    </a></li>
+                <li class="nav-list"> <a href="https://github.com/Raghav888">
+                        Github
+                    </a></li>
+                <li class="nav-list"> <a href="https://www.linkedin.com/in/raghavbang/">
+                        LinkedIn
+                    </a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <hr class="horizontal-line">
+
+    <!-- Side bar -->
+    <div>
+        <div class="side-bar">
+            <h3 class="getting-start"><a href="#load-component">Getting Started</a></h3>
+            <h3 class="component-title">Components</h3>
+            <ul class="component-list-container">
+                <a href="#avatar">
+                    <li class="component-feature">Avatar</li>
+                </a>
+                <a href="#badge">
+                    <li class="component-feature">Badge</li>
+                </a>
+                <a href="#alert">
+                    <li class="component-feature">Alert</li>
+                </a>
+                <a href="#button">
+                    <li class="component-feature">Button</li>
+                </a>
+                <a href="#card">
+                    <li class="component-feature">Card</li>
+                </a>
+                <a href="#image">
+                    <li class="component-feature">Image</li>
+                </a>
+                <a href="#input">
+                    <li class="component-feature">Input</li>
+                </a>
+            </ul>
+        </div>
+
+    </div>
+    <div class="vertical-line"></div>
+    <section class="main-container">
+        <div class="docs-container">
+            <div id="#load-component">
+                <h1>CSS</h1>
+                <p class="docs-data">
+                    Copy-paste the stylesheet <span class="code">&lt;link&gt;</span> into your <span class="code">&lt;head&gt;</span> before all other stylesheets to load our CSS.
+                </p>
+                <div class="code-snippet-container mantra-responsive-image">
+                    <iframe src="https://carbon.now.sh/embed/OMANf9TSYAmIS3cvixio" class="code-snippet" sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Avatar -->
     <!-- <span>
         <img
@@ -271,18 +343,11 @@
         <input id="mantra-success" class="mantra-textbox-classic" placeholder=" " />
     </div> -->
 
+    <!-- <div class="footer">
+        <i class="fa fa- footer__bookmark" aria-hidden="true"></i>
+        <i class="fa fa-github footer_download" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square footer__print" aria-hidden="true"></i>
+    </div> -->
 </body>
 
 </html>
-
-
-<!-- Wrap inside a div element and then give position relative to that div.
-.iframe{
-position: absolute;
-top:0;
-bottom:0;
-right:0;
-left:0;
-width: 100%;
-height:100%;
-} -->

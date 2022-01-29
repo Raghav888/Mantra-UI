@@ -1,0 +1,39 @@
+:root {
+    --bg-color: #cee4ec;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.header-index {
+    position: sticky;
+}
+
+.brand-logo {
+    width: 20rem;
+}
+
+main {
+    margin: auto 0;
+    width: 75%;
+    max-width: 30rem;
+    text-align: center;
+}
+
+.brand-tagline {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    letter-spacing: 0.1rem;
+}
