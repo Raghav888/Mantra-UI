@@ -1,206 +1,210 @@
-    body {
-        font-family: sans-serif;
-        background-color: var(--secondary-color);
-    }
-    
+body {
+    font-family: sans-serif;
+    background-color: var(--secondary-color);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    position: relative;
+}
+
+.header {
+    margin-left: 1.6rem;
+}
+
+.brand-logo-img {
+    margin-top: 0.8rem;
+}
+
+.nav-footer {
+    margin-left: auto;
+}
+
+.nav-bar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    float: left;
+    font-size: 1.8rem;
+}
+
+.nav-list a {
+    display: block;
+    color: var(--primary-color);
+    margin-right: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.horizontal-line {
+    border-top: 2px solid white;
+    opacity: 0.5;
+}
+
+.main-box {
+    display: flex;
+}
+
+
+/* Side bar */
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-md);
+    padding-top: 4rem;
+    position: fixed;
+    height: 100vh;
+    top: 1;
+}
+
+.component-feature {
+    color: var(--primary-color);
+    padding: var(--padding-sm);
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.getting-start a:hover,
+.component-feature:hover {
+    color: blue;
+}
+
+.component-list-container a {
+    text-decoration: none;
+}
+
+.component-title {
+    padding-left: 2rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.getting-start a {
+    padding-left: 2rem;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+
+/* Doc */
+
+.main-doc {
+    flex-grow: 1;
+    padding-top: 3rem;
+    max-width: 120rem;
+}
+
+.docs-container {
+    /* width: 100vh; */
+    padding-left: 30%;
+    /* max-height: max-content; */
+}
+
+.docs-data {
+    font-size: 1.6rem;
+}
+
+.code-snippet-container {
+    width: 95%;
+    overflow-x: auto;
+}
+
+.code-snippet {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    display: block;
+    margin: 0;
+}
+
+.component-preview-container {
+    display: grid;
+    width: max-content;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.5rem;
+}
+
+.increase-size {
+    font-size: 1.8rem;
+}
+
+.btn-move {
+    margin-left: 2rem;
+}
+
+.component-preview-container-card {
+    width: max-content;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;
+}
+
+.component-preview-container-img {
+    width: max-content;
+    margin: 2rem 0;
+}
+
+.component-preview-container-text {
+    width: max-content;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.footer-center {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-center i {
+    font-size: 5rem;
+    padding-left: 2rem;
+}
+
+.icon {
+    color: black
+}
+
+@media only screen and (max-width:930px) {
     html {
-        font-size: 62.5%;
-        scroll-behavior: smooth;
+        font-size: 50%;
     }
-    
-    .main {
-        display: flex;
-        height: 10vh;
-        align-items: center;
-        position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 45%;
     }
-    
-    .header {
-        margin-left: 1.6rem;
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 35%;
     }
-    
-    .brand-logo-img {
-        margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 25%;
     }
-    
-    .nav-footer {
-        margin-left: auto;
-    }
-    
-    .nav-bar-menu {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .nav-list {
-        float: left;
-        font-size: 1.8rem;
-    }
-    
-    .nav-list a {
-        display: block;
-        color: var(--primary-color);
-        margin-right: 1.6rem;
-        text-decoration: none;
-        font-weight: bold;
-    }
-    
-    .horizontal-line {
-        border-top: 2px solid white;
-        opacity: 0.5;
-    }
-    
-    .main-box {
-        display: flex;
-    }
-    /* Side bar */
-    
-    .side-bar {
-        display: flex;
-        flex-direction: column;
-        padding: var(--padding-md);
-        padding-top: 4rem;
-        position: fixed;
-        height: 100vh;
-        top: 1;
-    }
-    
-    .component-feature {
-        color: var(--primary-color);
-        padding: var(--padding-sm);
-        cursor: pointer;
-        list-style: none;
-        font-size: 1.8rem;
-    }
-    
-    .getting-start a:hover,
-    .component-feature:hover {
-        color: blue;
-    }
-    
-    .component-list-container a {
-        text-decoration: none;
-    }
-    
-    .component-title {
-        padding-left: 2rem;
-        color: var(--primary-color);
-        font-size: 2rem;
-    }
-    
-    .getting-start a {
-        padding-left: 2rem;
-        text-decoration: none;
-        color: var(--primary-color);
-        font-size: 2rem;
-    }
-    /* Doc */
-    
-    .main-doc {
-        flex-grow: 1;
-        padding-top: 3rem;
-        max-width: 120rem;
-    }
-    
-    .docs-container {
-        /* width: 100vh; */
-        padding-left: 30%;
-        /* max-height: max-content; */
-    }
-    
-    .docs-data {
-        font-size: 1.6rem;
-    }
-    
-    .code-snippet-container {
-        width: 95%;
-        overflow-x: auto;
-    }
-    
-    .code-snippet {
-        width: 100%;
-        padding: 0;
-        border: 0;
-        display: block;
-        margin: 0;
-    }
-    
-    .component-preview-container {
-        display: grid;
-        width: max-content;
-        margin: 2rem 0;
-        padding: 2rem;
-        border-radius: 0.5rem;
-        border: 1px solid var(--primary-color);
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 0.5rem;
-    }
-    
-    .increase-size {
-        font-size: 1.8rem;
-    }
-    
-    .btn-move {
-        margin-left: 2rem;
-    }
-    
-    .component-preview-container-card {
-        width: max-content;
-        margin: 2rem 0;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        border: 1px solid var(--primary-color);
-        background-color: white;
-    }
-    
-    .component-preview-container-img {
-        width: max-content;
-        margin: 2rem 0;
-    }
-    
-    .component-preview-container-text {
-        width: max-content;
-        margin: 2rem 0;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        border: 1px solid var(--primary-color);
-    }
-    
-    .footer-center {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .footer-center i {
-        font-size: 5rem;
-        padding-left: 2rem;
-    }
-    
-    .icon {
-        color: black
-    }
-    
-    @media only screen and (max-width:930px) {
-        html {
-            font-size: 50%;
-        }
-    }
-    
-    @media only screen and (max-width: 768px) {
-        html {
-            font-size: 45%;
-        }
-    }
-    
-    @media only screen and (max-width: 640px) {
-        html {
-            font-size: 35%;
-        }
-    }
-    
-    @media only screen and (max-width: 480px) {
-        html {
-            font-size: 25%;
-        }
-    }
+}
