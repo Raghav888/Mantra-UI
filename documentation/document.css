@@ -111,6 +111,7 @@ html {
     /* width: 100vh; */
     padding-left: 30%;
     /* max-height: max-content; */
+    margin-top: 10rem;
 }
 
 .docs-data {
@@ -128,6 +129,13 @@ html {
     border: 0;
     display: block;
     margin: 0;
+}
+
+#code-iframe {
+    height: 200px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
 }
 
 .component-preview-container {
@@ -182,10 +190,10 @@ html {
 }
 
 .icon {
-    color: black
+    color: black;
 }
 
-@media only screen and (max-width:930px) {
+@media only screen and (max-width: 930px) {
     html {
         font-size: 50%;
     }
