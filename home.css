@@ -22,18 +22,18 @@ body {
 }
 
 .brand-logo {
-    width: 20rem;
+    width: 40rem;
 }
 
 main {
     margin: auto 0;
-    width: 75%;
-    max-width: 30rem;
+    width: 100%;
+    max-width: 40rem;
     text-align: center;
 }
 
 .brand-tagline {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--primary-color);
     letter-spacing: 0.1rem;
 }
