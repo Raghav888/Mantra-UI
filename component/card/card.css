@@ -5,7 +5,6 @@
     width: var(--card-width);
     max-width: var( --card-width-max);
     border-radius: var(--border-radius);
-    margin-bottom: var( --margin-bottom);
     background-color: var(--secondary-color);
 }
 
@@ -61,7 +60,6 @@
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow-card);
-    margin-top: var(--margin-top);
 }
 
 .mantra-close-icon {
@@ -121,7 +119,6 @@
     box-sizing: border-box;
     max-width: var( --text-overlay-maxwidth);
     padding: var(--padding-lg);
-    margin-top: var(--margin-top);
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);
 }
