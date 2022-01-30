@@ -1,6 +1,6 @@
 .mantra-textbox-classic {
     position: relative;
-    border-radius: var( --border-radius);
+    border-radius: var( --border-radius-textbox);
     border-color: var(--primary-color);
     font-size: var( --txt-sm);
     margin-top: 10px;
