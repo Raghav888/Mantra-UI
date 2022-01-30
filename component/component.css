@@ -31,6 +31,7 @@
     /* *************************************** */
     /* Border radius  */
     --border-radius: 0.8rem;
+    --border-radius-textbox: 0.6rem;
     --border-radius-circle: 50%;
     --border-btn: 0.3rem;
     /* *************************************** */
