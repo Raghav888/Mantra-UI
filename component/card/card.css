@@ -3,15 +3,16 @@
 .mantra-card-holder {
     display: flex;
     width: var(--card-width);
-    max-width: var( --card-width-max);
+    max-width: var(--card-width-max);
     border-radius: var(--border-radius);
     background-color: var(--secondary-color);
 }
 
 .mantra-card-holder-image {
-    padding: var(--padding-lg);
+    padding: 0 var(--padding-lg) var(--padding-lg);
     max-width: var(--max-width-img);
     height: auto;
+    margin-bottom: 1rem;
 }
 
 .mantra-card-holder-image img {
@@ -38,14 +39,14 @@
 }
 
 .mantra-card-btn {
-    margin-top: var( --margin-top-btn);
+    margin-top: var(--margin-top-btn);
 }
 
 .mantra-original {
     text-decoration: line-through;
     font-size: var(--txt-md);
     color: var(--light-grey);
-    margin-left: var( --margin-left-md);
+    margin-left: var(--margin-left-md);
 }
 
 
@@ -53,7 +54,7 @@
 
 .mantra-vertical-card {
     position: relative;
-    max-width: var( --card-vert-width-max);
+    max-width: var(--card-vert-width-max);
     height: auto;
     padding: var(--padding-lg);
     box-sizing: border-box;
@@ -68,7 +69,7 @@
     right: 0px;
     margin-right: 0px;
     padding-top: 0px;
-    font-size: var( --txt-lg);
+    font-size: var(--txt-lg);
     color: var(--primary-color);
     cursor: pointer;
 }
@@ -86,7 +87,7 @@
 }
 
 .mantra-badge-card {
-    margin: var( --margin-card-badge);
+    margin: var(--margin-card-badge);
     border-radius: 1px;
 }
 
@@ -95,7 +96,7 @@
 }
 
 .card-badge {
-    background-color: var( --primary-color);
+    background-color: var(--primary-color);
     position: relative;
     font-size: var(--txt-sm);
     font-weight: bold;
@@ -117,7 +118,7 @@
 
 .mantra-text-card {
     box-sizing: border-box;
-    max-width: var( --text-overlay-maxwidth);
+    max-width: var(--text-overlay-maxwidth);
     padding: var(--padding-lg);
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);

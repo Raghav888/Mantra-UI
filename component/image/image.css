@@ -1,6 +1,6 @@
 .mantra-responsive-image img,
 .mantra-responsive-image iframe {
-    max-inline-size: var( --max-inline-size-img);
+    max-inline-size: var(--max-inline-size-img);
     block-size: auto;
     aspect-ratio: 2/1;
     object-fit: contain;
@@ -8,5 +8,33 @@
 }
 
 .mantra-image-rounded img {
-    border-radius: var( --border-radius-circle);
+    border-radius: var(--border-radius-circle);
+}
+
+@media only screen and (max-width: 930px) {
+    .mantra-responsive-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mantra-responsive-image img {
+        width: 50rem;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .mantra-responsive-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .mantra-responsive-image img {
+        max-width: 100%;
+        height: auto;
+    }
 }
