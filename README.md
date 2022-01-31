@@ -5,6 +5,7 @@ Component library with HTML/CSS.
 Components:
 
 1. Avatar
+
 2. Alert
 3.Badge
 -Badge on Icons
