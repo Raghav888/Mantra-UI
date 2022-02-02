@@ -3,7 +3,7 @@
     border-radius: var(--border-radius-textbox);
     border-color: var(--primary-color);
     font-size: var(--txt-sm);
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .mantra-highlight-box:focus {
