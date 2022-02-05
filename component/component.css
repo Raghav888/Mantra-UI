@@ -95,3 +95,27 @@
     --max-inline-size-img: 100%;
     /* *************************************** */
 }
+
+@media only screen and (max-width: 930px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 25%;
+    }
+}
