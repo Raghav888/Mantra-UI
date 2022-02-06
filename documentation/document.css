@@ -149,7 +149,8 @@ html {
 #code-iframe-p,
 #code-iframe-q,
 #code-iframe-r,
-#code-iframe-s {
+#code-iframe-s,
+#code-iframe-t {
     height: 200px;
     width: 100%;
     border: none;
@@ -193,6 +194,14 @@ html {
     width: max-content;
     margin: 2rem 0;
     padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.component-preview-container-nav {
+    max-width: 100%;
+    margin: 2rem 0;
+    /* padding: 0.5rem; */
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
