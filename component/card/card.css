@@ -40,6 +40,7 @@
 
 .mantra-card-btn {
     margin-top: var(--margin-top-btn);
+    padding: var(--padding-lg);
 }
 
 .mantra-original {
@@ -56,21 +57,24 @@
     position: relative;
     max-width: var(--card-vert-width-max);
     height: auto;
-    padding: var(--padding-lg);
     box-sizing: border-box;
     background-color: var(--secondary-color);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow-card);
 }
 
+.mantra-card-holder-text-vert {
+    padding: var(--padding-lg);
+}
+
 .mantra-close-icon {
     position: absolute;
     top: 0px;
-    right: 0px;
+    right: 2px;
     margin-right: 0px;
     padding-top: 0px;
     font-size: var(--txt-lg);
-    color: var(--primary-color);
+    color: var(--txt-dark);
     cursor: pointer;
 }
 
@@ -114,6 +118,7 @@
     left: var(--text-overlay-left);
     font-weight: bold;
     color: white;
+    font-size: 1.5rem;
 }
 
 .mantra-text-card {

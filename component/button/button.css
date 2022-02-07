@@ -1,6 +1,6 @@
 .mantra-button {
     padding: var(--padding-btn-md);
-    border-radius: var( --border-btn);
+    border-radius: var(--border-btn);
     color: var(--txt-primary);
     font-size: var(--txt-btn-md);
     cursor: pointer;
@@ -8,14 +8,14 @@
 }
 
 .mantra-primary-btn {
-    background-color: var( --primary-color);
+    background-color: var(--primary-color);
     font-size: var(--txt-md);
 }
 
 .mantra-outline-btn {
     background-color: var(--txt-primary);
-    border: 1px solid var( --primary-color);
-    color: var( --primary-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 .mantra-med-btn {
@@ -33,7 +33,6 @@
 }
 
 .mantra-floating-box {
-    position: fixed;
     display: flex;
     gap: var(--gap-btn);
     color: var(--primary-color);
@@ -45,9 +44,9 @@
 .mantra-floating-btn {
     border-radius: var(--border-radius-circle);
     box-shadow: var(--shadow);
-    width: var( --width-float-btn);
+    width: var(--width-float-btn);
     height: var(--height-float-btn);
-    background: var( --primary-color);
+    background: var(--primary-color);
 }
 
 .mantra-floating-box i {
@@ -55,19 +54,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: var( --height-float-icon);
-    color: var( --txt-primary);
+    height: var(--height-float-icon);
+    color: var(--txt-primary);
 }
 
 .mantra-link {
-    border-radius: var( --border-btn);
+    border-radius: var(--border-btn);
     color: var(--txt-primary);
     cursor: pointer;
 }
 
 .mantra-link:link,
 .mantra-link:visited {
-    background-color: var( --primary-color);
+    background-color: var(--primary-color);
     text-decoration: none;
     padding: var(--padding-btn-md);
 }
@@ -75,7 +74,7 @@
 .mantra-link:hover,
 .mantra-link:active,
 .mantra-link:focus {
-    background-color: var( --secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .mantra-link-button {

@@ -6,6 +6,7 @@
 @import url(../component/image/image.css);
 @import url(../component/input/input.css);
 @import url(../component/navbar/navbar.css);
+@import url(../component/rating/rating.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -15,7 +16,7 @@
     --padding-badge: 0.4rem;
     --padding-btn-lg: 0.8rem;
     --padding-btn-md: 0.5rem;
-    --padding-btn-sm: 0.2rem;
+    --padding-btn-sm: 0.4rem;
     /* *************************************** */
     /* Color Primary and Secondary */
     --primary-color: #1299d3;
@@ -50,11 +51,12 @@
     /* Font sizes  */
     --txt-lg: 2.8rem;
     --txt-md: 1.8rem;
-    --txt-sm: 0.8rem;
+    --txt-sm: 1.2rem;
     --txt-btn-md: 1rem;
     --txt-size-nav: 2rem;
     /* *************************************** */
     /* Position badge */
+    --left-badge: 2.2rem;
     --left-md: 2rem;
     --bottom-md: 4rem;
     --left-circle-md: 7rem;
@@ -90,8 +92,8 @@
     --height-img: 100%;
     --card-vert-width-max: 14rem;
     --margin-card-badge: 2rem 0px 0px 0.7rem;
-    --text-overlay-top: 50%;
-    --text-overlay-left: 30%;
+    --text-overlay-top: 45%;
+    --text-overlay-left: 20%;
     --text-overlay-maxwidth: 19rem;
     /* *************************************** */
     /* Image responsiveness */
