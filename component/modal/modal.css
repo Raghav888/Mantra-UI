@@ -3,7 +3,7 @@
     flex-direction: column;
     width: var(--modal-width);
     border-radius: 5px;
-    box-shadow: -1px 1px 8px 1px rgb(0 0 0 / 75%);
+    box-shadow: var(--modal-shadow);
     background-color: white;
 }
 
@@ -37,6 +37,8 @@
     border-radius: 50%;
     padding: 6px;
     cursor: pointer;
+    width: 10px;
+    height: 1.2rem;
     background-color: var(--primary-color);
 }
 
@@ -53,11 +55,11 @@
     justify-content: end;
 }
 
-.mantra-modal-footer button {
+.mantra-modal-footer .mantra-modal-button {
     margin: var(--modal-margin);
     border: none;
 }
 
-.mantra-modal hr {
+.mantra-modal .mantra-break-modal {
     margin: 0;
 }
