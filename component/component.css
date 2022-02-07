@@ -7,6 +7,7 @@
 @import url(../component/input/input.css);
 @import url(../component/navbar/navbar.css);
 @import url(../component/rating/rating.css);
+@import url(../component/modal/modal.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -103,6 +104,11 @@
     --navbar-height: 2.8rem;
     --navbar-search-margin: 0 30rem 0 40rem;
     --navbar-margin-right: 6rem;
+    /* Modal */
+    --modal-width: 30rem;
+    --modal-padding: 0.7rem;
+    --grey-dark: gray;
+    --modal-margin: 0.7rem;
 }
 
 @media only screen and (max-width: 930px) {

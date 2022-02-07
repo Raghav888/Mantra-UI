@@ -151,7 +151,8 @@ html {
 #code-iframe-r,
 #code-iframe-s,
 #code-iframe-t,
-#code-iframe-r {
+#code-iframe-u,
+#code-iframe-v {
     height: 200px;
     width: 100%;
     border: none;
@@ -167,6 +168,10 @@ html {
     border: 1px solid var(--primary-color);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0.5rem;
+}
+
+.increase-size-modal {
+    font-size: 1.2rem;
 }
 
 .increase-size {
