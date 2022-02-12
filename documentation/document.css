@@ -108,14 +108,12 @@ html {
 }
 
 .docs-container {
-    /* width: 100vh; */
     padding-left: 30%;
-    /* max-height: max-content; */
     margin-top: 10rem;
 }
 
 .docs-data {
-    font-size: 1.6rem;
+    font-size: 2rem;
 }
 
 .code-snippet-container {
@@ -246,5 +244,29 @@ html {
 @media only screen and (max-width: 480px) {
     html {
         font-size: 25%;
+        width: 100%;
+    }
+    .main {
+        width: 85rem;
+    }
+    .side-bar {
+        display: none;
+    }
+    .main-doc {
+        flex-grow: 1;
+        padding-top: 1rem;
+        max-width: 90rem;
+    }
+    .docs-container {
+        margin-top: 0rem;
+        padding: 5rem;
+    }
+    .brand-logo-img {
+        margin-top: 0.8rem;
+        width: 30rem;
+    }
+    .nav-list,
+    .docs-data {
+        font-size: 3rem;
     }
 }
