@@ -20,7 +20,7 @@
     --padding-btn-sm: 0.4rem;
     /* *************************************** */
     /* Color Primary and Secondary */
-    --primary-color: #1299d3;
+    --primary-color: #0e6287;
     --secondary-color: #cee4ec;
     /* *************************************** */
     /*Color for alerts  */
@@ -111,29 +111,3 @@
     --modal-margin: 0.7rem;
     --modal-shadow: -1px 1px 8px 1px rgb(0 0 0 / 75%);
 }
-
-@media only screen and (max-width: 930px) {
-    html {
-        font-size: 50%;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    html {
-        font-size: 45%;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    html {
-        font-size: 35%;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    html {
-        font-size: 25%;
-    }
-}
-
-;
