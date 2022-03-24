@@ -155,8 +155,9 @@ html {
 #code-iframe-y,
 #code-iframe-z,
 #code-iframe-one,
-#code-iframe-two {
-    height: 200px;
+#code-iframe-two,
+#code-iframe-three {
+    height: 20rem;
     width: 100%;
     border: none;
     overflow: hidden;
