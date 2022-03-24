@@ -1,0 +1,14 @@
+.mantra-list-item {
+    padding: 1rem;
+    border: 2px gray solid;
+    font-size: 2rem;
+}
+
+.mantra-list {
+    max-width: 25rem;
+    list-style: none;
+}
+
+.mantra-list-active {
+    background-color: var( --notification-color);
+}

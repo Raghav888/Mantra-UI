@@ -9,6 +9,7 @@
 @import url(../component/rating/rating.css);
 @import url(../component/modal/modal.css);
 @import url(../component/text-utilities/text-utilities.css);
+@import url(../component/list/list.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -112,4 +113,6 @@
     --grey-dark: gray;
     --modal-margin: 0.7rem;
     --modal-shadow: -1px 1px 8px 1px rgb(0 0 0 / 75%);
+    /* Notification */
+    --notification-color: blue;
 }
