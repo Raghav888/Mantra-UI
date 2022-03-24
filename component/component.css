@@ -11,6 +11,7 @@
 @import url(../component/text-utilities/text-utilities.css);
 @import url(../component/list/list.css);
 @import url(../component/snackbar/snackbar.css);
+@import url(../component/grid/grid.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -116,4 +117,10 @@
     --modal-shadow: -1px 1px 8px 1px rgb(0 0 0 / 75%);
     /* Notification */
     --notification-color: blue;
+    /* Grid */
+    --grid-color: gray;
+    --grid-height: 10rem;
+    --grid-gap: 2rem;
+    --grid-width: 20rem;
+    --grid-margin: 2rem;
 }
