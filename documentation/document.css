@@ -150,7 +150,10 @@ html {
 #code-iframe-s,
 #code-iframe-t,
 #code-iframe-u,
-#code-iframe-v {
+#code-iframe-v,
+#code-iframe-x,
+#code-iframe-y,
+#code-iframe-z {
     height: 200px;
     width: 100%;
     border: none;
@@ -221,6 +224,14 @@ html {
 
 .icon {
     color: black;
+}
+
+.center-box {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
 
 @media only screen and (max-width: 930px) {

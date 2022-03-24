@@ -8,6 +8,7 @@
 @import url(../component/navbar/navbar.css);
 @import url(../component/rating/rating.css);
 @import url(../component/modal/modal.css);
+@import url(../component/text-utilities/text-utilities.css);
 :root {
     /* Padding Size */
     --padding-sm: 0.5rem;
@@ -31,6 +32,7 @@
     /* Text color */
     --txt-primary: white;
     --txt-dark: #0e1970;
+    --text-gray: gray;
     /* *************************************** */
     /* Border radius  */
     --border-radius: 0.8rem;
