@@ -1,0 +1,20 @@
+.mantra-grid-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var( --grid-gap);
+    width: var( --grid-width);
+    margin: var( --grid-margin);
+}
+
+.mantra-grid-item {
+    background: var( --grid-color);
+    min-height: var( --grid-height);
+}
+
+.mantra-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var( --grid-gap);
+    width: var( --grid-width);
+    margin: var( --grid-margin);
+}
