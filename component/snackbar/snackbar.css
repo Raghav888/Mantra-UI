@@ -1,0 +1,25 @@
+.mantra-snackbar-success {
+    padding: 0.5rem;
+    background-color: var( --success-color);
+    width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.mantra-close-space {
+    margin-left: 2rem;
+}
+
+.mantra-snackbar-danger {
+    padding: 0.5rem;
+    background-color: var(--danger-color);
+    width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
