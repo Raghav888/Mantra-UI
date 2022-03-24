@@ -1,0 +1,43 @@
+.mantra-heading-1 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.mantra-heading-2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.mantra-heading-3 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.mantra-heading-4 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.mantra-heading-5 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.mantra-heading-6 {
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.mantra-small-text {
+    font-size: 2rem;
+}
+
+.mantra-text-gray {
+    color: var(--text-gray);
+    font-size: 2rem;
+}
+
+.mantra-text-center {
+    text-align: center;
+    font-size: 2rem;
+}
