@@ -13,7 +13,8 @@ Component library with HTML/CSS.
 - Small text
 - Gray text
 - Center text
-2.Lists
+
+2. Lists
 - Spaced (normal lists)
 - Stacked (Notification Page)
 3. Snackbar
