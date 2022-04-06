@@ -1,0 +1,64 @@
+.mantra-modal {
+    display: flex;
+    flex-direction: column;
+    width: var(--modal-width);
+    border-radius: 5px;
+    box-shadow: var(--modal-shadow);
+    background-color: white;
+}
+
+.mantra-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: grid;
+    place-items: center;
+    visibility: hidden;
+}
+
+.mantra-open-modal {
+    visibility: visible;
+    z-index: 1;
+}
+
+.mantra-modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--modal-padding);
+}
+
+#mantra-modal-close {
+    margin-left: auto;
+    border-radius: 50%;
+    padding: 6px;
+    cursor: pointer;
+    width: 10px;
+    height: 1.2rem;
+    background-color: var(--primary-color);
+}
+
+#mantra-modal-close:hover {
+    background-color: var(--danger-color);
+}
+
+.mantra-modal-body {
+    padding: var(--modal-padding);
+}
+
+.mantra-modal-footer {
+    display: flex;
+    justify-content: end;
+}
+
+.mantra-modal-footer .mantra-modal-button {
+    margin: var(--modal-margin);
+    border: none;
+}
+
+.mantra-modal .mantra-break-modal {
+    margin: 0;
+}

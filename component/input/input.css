@@ -1,0 +1,53 @@
+.mantra-textbox-classic {
+    position: relative;
+    border-radius: var(--border-radius-textbox);
+    border-color: var(--primary-color);
+    font-size: var(--txt-sm);
+    margin-top: 12px;
+}
+
+.mantra-highlight-box:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.mantra-warning-input label {
+    color: var(--warning-color);
+}
+
+.mantra-error-input label {
+    color: var(--danger-color);
+}
+
+.mantra-success-input label {
+    color: var(--success-color);
+}
+
+#mantra-warning {
+    border: 1px solid var(--warning-color);
+}
+
+#mantra-error {
+    border: 1px solid var(--danger-color);
+}
+
+#mantra-success {
+    border: 1px solid var(--success-color);
+}
+
+#mantra-warning:focus {
+    outline: 2px solid var(--warning-color);
+}
+
+#mantra-error:focus {
+    outline: 2px solid var(--danger-color);
+}
+
+#mantra-success:focus {
+    outline: 2px solid var(--success-color);
+}
+
+@media (min-width: 48em) {
+    .mantra-textbox-classic {
+        font-size: var(--txt-md);
+    }
+}

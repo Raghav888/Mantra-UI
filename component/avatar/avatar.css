@@ -1,0 +1,19 @@
+.mantra-avatar {
+    border-radius: var(--border-radius-circle);
+    margin-left: var(--margin-left-md);
+}
+
+.mantra-avatar-large {
+    width: var(--avatar-lg);
+    height: var(--avatar-lg)
+}
+
+.mantra-avatar-medium {
+    width: var(--avatar-md);
+    height: var(--avatar-md);
+}
+
+.mantra-avatar-small {
+    width: var(--avatar-sm);
+    height: var(--avatar-sm);
+}
